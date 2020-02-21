@@ -1,0 +1,53 @@
+<resources>
+    //中文
+    <string name="app_name">誰是臥底</string>
+    <string name="dialog_now_loading">正在載入</string>
+
+    //MainActivity
+    <string name="main_title">誰是臥底</string>
+    <string name="main_player_number">玩家人數</string>
+    <string name="main_spy_number">臥底人數</string>
+    <string name="main_civilian_number">平民人數</string>
+    <string name="main_add_white_board">加入白板</string>
+    <string name="main_custom_player_names">自訂玩家暱稱</string>
+    <string name="main_custom_puzzles">自訂遊戲謎底</string>
+    <string name="main_start_game">遊戲開始</string>
+    <string name="main_player">玩家</string>
+    <string name="main_custom_name_changed">修改成功</string>
+    <string name="main_toast_not_enough_player">玩家數不足</string>
+    <string name="main_toast_max_text_size">最多可填寫14個字</string>
+    <string name="main_toast_fill_in_blanks">請填寫謎底</string>
+
+    //PlayerNameDialog
+    <string name="player_name_dialog_btn_save">儲存</string>
+    <string name="player_name_dialog_btn_cancel">取消</string>
+    <string name="player_name_hint">玩家姓名</string>
+
+
+    //SeePuzzleActivity
+    <string name="see_puzzle_player">玩家</string>
+    <string name="see_puzzle_your_puzzle_is">你的謎底是</string>
+    <string name="see_puzzle_double_tap_to_see_your_puzzle">點擊兩下查看謎底</string>
+    <string name="see_puzzle_double_tap_and_pass_to_next">點擊兩下並交給下一位玩家</string>
+    <string name="see_puzzle_double_tap_to_next_stage">點擊兩下進入下一階段</string>
+    <string name="see_puzzle_tap_again">再點一次</string>
+    <string name="see_puzzle_tap_faster">點快一點嘿</string>
+    <string name="see_puzzle_tap_to_see_puzzle">點我看謎底</string>
+    <string name="see_puzzle_you_are_white_board">你是白板喔</string>
+
+    //VoteActivity
+    <string name="vote_civilian">平民</string>
+    <string name="vote_spy">臥底</string>
+    <string name="vote_wb">白板</string>
+    <string name="vote_civilian_win">平民獲勝</string>
+    <string name="vote_spy_win">臥底獲勝</string>
+    <string name="vote_wb_win">白板獲勝</string>
+    <string name="vote_round">回合</string>
+    <string name="vote_instruction_choose_a_player">請選擇擊殺一名玩家</string>
+    <string name="vote_btn_exit">結束</string>
+    <string name="vote_btn_puzzles_result">謎底</string>
+    <string name="vote_dialog_are_you_sure">確定殺死</string>
+    <string name="vote_dialog_confirm">就他了</string>
+    <string name="vote_dialog_cancel">再想想</string>
+
+</resources>

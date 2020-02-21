@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Who Are You</string>
+    <string name="main_add_white_board">Add blank</string>
+    <string name="main_civilian_number">Civilians</string>
+    <string name="main_custom_player_names">Custom Player Names</string>
+    <string name="main_custom_puzzles">Custom Puzzles</string>
+    <string name="main_player_number">Players</string>
+    <string name="main_spy_number">Spies</string>
+    <string name="main_start_game">Start Game</string>
+    <string name="main_title">Who Are You</string>
+    <string name="see_puzzle_player">Player</string>
+    <string name="see_puzzle_tap_to_see_puzzle">See your puzzle</string>
+    <string name="player_name_dialog_btn_save">Save</string>
+    <string name="player_name_hint">Name</string>
+    <string name="player_name_dialog_btn_cancel">Cancel</string>
+    <string name="see_puzzle_double_tap_and_pass_to_next">Tap twice and hand over to the next player</string>
+    <string name="see_puzzle_double_tap_to_next_stage">Tap twice to the next stage</string>
+    <string name="see_puzzle_double_tap_to_see_your_puzzle">Tap twice to see your puzzle</string>
+    <string name="see_puzzle_your_puzzle_is">Your puzzle is</string>
+    <string name="see_puzzle_tap_again">Tap again</string>
+    <string name="main_player">Player</string>
+    <string name="main_custom_name_changed">Changed Successful</string>
+    <string name="see_puzzle_you_are_white_board">You are the blank</string>
+    <string name="vote_civilian">Civilian</string>
+    <string name="vote_spy">Spy</string>
+    <string name="vote_wb">Blank</string>
+    <string name="dialog_now_loading">Now Loading</string>
+    <string name="vote_btn_exit">Exit</string>
+    <string name="vote_btn_puzzles_result">Answer</string>
+    <string name="vote_civilian_win">Civilians win!</string>
+    <string name="vote_instruction_choose_a_player">Kill a player</string>
+    <string name="vote_round">Round</string>
+    <string name="vote_spy_win">Spies win!</string>
+    <string name="vote_wb_win">Blank wins!</string>
+    <string name="main_toast_not_enough_player">Player quantity not enough</string>
+    <string name="main_toast_max_text_size">Up to 14 characters</string>
+    <string name="main_toast_fill_in_blanks">Please fill in the blanks</string>
+    <string name="see_puzzle_tap_faster">Tap faster</string>
+    <string name="vote_dialog_are_you_sure">"Are you sure to kill "</string>
+    <string name="vote_dialog_cancel">eh... no</string>
+    <string name="vote_dialog_confirm">Why not</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#494949"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".VoteActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/vote_btn_exit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_round_rectangle"
+            android:gravity="center"
+            android:text="@string/vote_btn_exit"
+            android:textColor="#FFFFFF"></Button>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"></TextView>
+
+        <Button
+            android:id="@+id/vote_btn_see_puzzle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_round_rectangle"
+            android:gravity="center"
+            android:text="@string/vote_btn_puzzles_result"
+            android:textColor="#FFFFFF"></Button>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/vote_round"
+            android:textSize="25dp"></TextView>
+
+        <TextView
+            android:id="@+id/vote_tv_round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"></TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vote_tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text=""
+        android:textColor="#00E0CB"
+        android:textSize="20dp"></TextView>
+
+    <GridLayout
+        android:id="@+id/vote_grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/vote_rv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"/>
+
+        </ScrollView>
+
+    </GridLayout>
+
+
+</LinearLayout>
