@@ -20,4 +20,5 @@ A undercover board game connects to puzzles on Google sheets.
 ![vote](https://github.com/worksB-collab/Undercover/blob/master/Indication%20Images/vote-min.gif)
 
 ### Language switching
+Transforming to traditional Chinese by switching system language.
 ![zh](https://github.com/worksB-collab/Undercover/blob/master/Indication%20Images/zh.gif)
